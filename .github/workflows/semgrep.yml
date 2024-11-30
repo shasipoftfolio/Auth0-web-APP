@@ -1,4 +1,4 @@
-name: Semgrep
+name: RSunda
 
 on:
   pull_request: {}
@@ -10,7 +10,7 @@ on:
     - cron: '30 0 1,15 * *'
 
 jobs:
-  semgrep:
+  RSunda:
     name: Scan
     runs-on: ubuntu-latest
     container:
